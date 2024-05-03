@@ -1,0 +1,194 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Your+Chosen+Font&display=swap');
+
+.text-lg.font-semibold.mb-2 {
+  font-family:sans-serif;
+}
+
+.section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 4px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-box {
+    width: 50%; 
+    padding: 20px;
+    border: 2px solid #333; 
+    margin-left: 20px; 
+}
+
+.home-container {
+    text-align: center;
+}
+
+
+#about{
+    border-style: bold;
+}
+.bg-white rounded-lg shadow-md p-4{
+    align-items: center;
+}
+
+.lastquote{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.logo {
+    width: 30px; 
+    height: auto;
+    margin-right: 5px; 
+    vertical-align: middle;
+}
+
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.progress {
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    background-color: #007bff;
+    color: white;
+    padding: 5px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,p{
+    font-size: 18px;
+    font-weight: 400;
+}
+    .section-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 4px solid black;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .text-lg.font-semibold.mb-2 {
+        font-family:sans-serif;
+      }
+      .text-2xl.font-bold.mb-4 {
+        color: black;
+    }
+    .contact-box {
+        width: 90%;
+        max-width: 500px;
+        padding: 20px;
+        border: 2px solid #333;
+        text-align: center;
+    }
+    .logo {
+        width: 30px; 
+        height: auto; 
+        transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    }
+    .logo:hover {
+        transform: scale(1.1); 
+        color: #FF69B4;
+    }
+    ul.flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .section-container{
+        background-color: rgb(248, 227, 199);
+    }
+    #home {
+        background-image: url('path/to/image.jpg');
+    }
+    .home-container {
+        text-align: center;
+    }
+    #home {
+        position: relative;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .video-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        z-index: -1;
+    }
+    #video-bg {
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        object-fit: cover;
+    }
+    .home-content {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        color: white; 
+        padding: 20px;
+    }
+    .centered element{
+        float: middle;
+    }
+    
+    #about{
+        border-style: bold;
+    }
+    .bg-white rounded-lg shadow-md p-4{
+        align-items: center;
+    }
+    
+    .lastquote{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    .special-text {
+        text-shadow: 0 0 5px #ff00ff;
+        color: #ff00ff;
+    }
+
+    .nav-tabs li a{
+        font-size: 24px;
+    }
+    .tab-content h2{
+        font-size: 24px;
+    }
+    .navbar-brand {
+        margin-right: auto; 
+        margin-left: 0;
+    }
+    .underline{
+        text-decoration: underline;
+    }
+    

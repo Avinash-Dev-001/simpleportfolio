@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aviPort.live</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-gray-100">
+    <!--navigation process -->
+    <nav class="bg-gray-900 text-white py-4">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <h1 class="text-6xl font-bold">Mr.me</h1>
+            <ul class="flex space-x-4">
+                <li><a href="#home" class="hover:text-gray-300">Home</a></li>
+                <li><a href="#about" class="hover:text-gray-300">About</a></li>
+                <li><a href="#projects" class="hover:text-gray-300">Projects</a></li>
+                <li><a href="#skills" class="hover:text-gray-300">Skills</a></li>
+            </ul>
+        </div>
+    </nav>
+
+<!-- Home Section -->
+<section id="home" class="section-container1">
+    <div class="video-container">
+        <video autoplay muted loop id="video-bg">
+            <source src="backgroundtheme.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="container mx-auto flex flex-col justify-center items-center h-full">
+        <div class="home-content">
+            <!-- Content -->
+            <h2 class="text-5xl font-bold mb-4" style="color:#333"> 😎 |_Avinash _|</h2>
+            <ul class="flex space-x-4">
+                <li><a href="mailto:pamulaavinash001@gmail.com" class="text-blue-500 hover:underline" target="_blank" onclick="myEmail()"><img src="gmail.png" alt="Email" class="logo"></a></li>
+                <li><a href="https://www.linkedin.com/in/p-avinash-979567218/" class="text-blue-500 hover:underline" target="_blank" onclick="myLinkedin()"><img src="linkedin.png" alt="LinkedIn" class="logo"></a></li>
+                <li><a href="https://github.com/Avinash-Dev-001" class="text-blue-500 hover:underline" target="_blank" onclick="myGithub()"><img src="github.png" alt="GitHub" class="logo"></a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+    <section id="about" class="section-container">
+        <div class="about-container">
+            <h2 class="text-4xl font-bold mb-4">About Me</h2>
+            <br>
+            <p class="mb-4">As a Front-end Web Developer, I love creating web apps that users enjoy using. From brainstorming ideas to deploying finished products, I'm all about making the digital experience seamless and exciting. With expertise in both frontend and backend technologies, I'm eager to contribute my skills to build innovative solutions and enhance user satisfaction.</p><br>
+            <br>
+            <a href="https://flowcv.com/resume/et4lpvog2u" download class="bg-blue-500 text-white py-2 px-4 rounded-md float-right centered element" target="_blank">Download CV</a>
+        </div>
+    </section>
+
+<!-- Project Section  -->
+<section id="projects" class="section-container">
+    <div class="projects-container grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Project Cards -->
+        <div class="bg-yellow rounded-lg shadow-md p-6 hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 border-2 border:black">
+            <h3 class="text-4xl font-bold mb-4 underline">Food Ordering Using QR code:</h3>
+            <h4 class="text-3xl font-bold mb-4">Description :</h4>
+            <p>Implemented a self-ordering system with QR code integration,
+                revolutionizing dining. Each table has a QR code for easy 
+                access to the digital menu via smartphones. Patrons personalize
+                orders and securely place and pay through the application,
+                streamlining the process while enhancing convenience and
+                efficiency.</p>
+            
+            <div class="flex">
+                <div class="w-1/2">
+                    <p>Languages Used:</p>
+                    <ul>
+                        <li>HTML:</li>
+                        <li>CSS:</li>
+                        <li>JavaScript:</li>
+                    </ul>
+                </div>
+                <div class="w-1/2">
+                    <p>Percentages:</p>
+                    <ul>
+                        <li> - 82.1%</li>
+                        <li> - 15.0%</li>
+                        <li> - 2.9%</li>
+                    </ul>
+                </div>
+            </div>
+            <a href="https://github.com/Avinash-Dev-001/Project-of-Food-Ordering-System-using-QR-Code" download class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4 inline-block" target="_blank">View demoProject</a>
+        </div>
+        <div class="bg-yellow rounded-lg shadow-md p-6 hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 border-2 border:black">
+            <h3 class="text-4xl font-bold mb-4 underline">Food Ordering Using QR code:</h3>
+            <h4 class="text-3xl font-bold mb-4">Description :</h4>
+            <p>Implemented a self-ordering system with QR code integration,
+                revolutionizing dining. Each table has a QR code for easy 
+                access to the digital menu via smartphones. Patrons personalize
+                orders and securely place and pay through the application,
+                streamlining the process while enhancing convenience and
+                efficiency.</p>
+            
+            <div class="flex">
+                <div class="w-1/2">
+                    <p>Languages Used:</p>
+                    <ul>
+                        <li>HTML:</li>
+                        <li>CSS:</li>
+                        <li>JavaScript:</li>
+                    </ul>
+                </div>
+                <div class="w-1/2">
+                    <p>Percentages:</p>
+                    <ul>
+                        <li> - 82.3%</li>
+                        <li> - 15.1%</li>
+                        <li> - 2.6%</li>
+                    </ul>
+                </div>
+            </div>
+            <a href="https://github.com/Avinash-Dev-001/Project-of-Food-Ordering-System-using-QR-Code" download class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4 inline-block" target="_blank">View demoProject</a>
+        </div>
+    </div>
+</section>
+<!-- Skills -->
+<section id="skills" class="section-container">
+
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="#" onclick="showTab('languages', event)">Languages</a></li>
+        <li><a href="#" onclick="showTab('skills-content', event)">Skills</a></li>
+    </ul>
+    <div class="tab-content" id="languages" style="display: block">
+        <h2>Languages</h2>
+        <div class="progress">
+            <div class="progress-bar" style="width: 80%;">Java</div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar" style="width: 90%;">Python</div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar" style="width: 70%;">JavaScript</div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar" style="width: 85%;">HTML</div>
+        </div>
+    </div>
+    <div class="tab-content" id="skills-content">
+        <h2>Skills</h2>
+        <div class="progress">
+            <div class="progress-bar" style="width: 80%;">Leadership</div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar" style="width: 90%;">Team Management</div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar" style="width: 70%;">Spoken Skills</div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar" style="width: 85%;">Learning New Technologies</div>
+        </div>
+    </div>
+
+</section>
+
+<script>
+    function showTab(tabName) {
+        var tabs = document.querySelectorAll('.tab-content');
+        tabs.forEach(function(tab) {
+            tab.style.display = 'none';
+        });
+        document.getElementById(tabName).style.display = 'block';
+    }
+</script>
+
+<!-- Footer Section -->
+<footer class="bg-gray-900 text-white py-4 flex justify-center">
+    <div class="container mx-auto px-4 text-center">
+        <div class="mb-4">
+            <p>I am eagerly awaiting the opportunity to apply and showcase my skills towards various tasks. I am excited to demonstrate my capabilities and contribute meaningfully to projects that come my way.  </p>
+
+        </div>
+        <h1 class="text-2xl special-text">Reach Out and Connect 🤝 </h1>
+        <p>pamulaavinash001@gmail.com</p>
+        <p class="text-2xl special-text">made with ❤️ by Avinash</p>
+
+    </div>
+</footer>
+</body>
+</html>
